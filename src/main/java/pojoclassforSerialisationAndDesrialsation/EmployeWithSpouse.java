@@ -1,0 +1,68 @@
+package pojoclassforSerialisationAndDesrialsation;
+
+public class EmployeWithSpouse {
+	String EmpName;
+	 String EmpID;
+	 String EmpEmailId;
+	 int PhoneNo;
+	 Object spouse;
+	 
+	
+
+	public EmployeWithSpouse(String empName, String empID, String empEmailId, int phoneNo, Object spouse) {
+		super();
+		EmpName = empName;
+		EmpID = empID;
+		EmpEmailId = empEmailId;
+		PhoneNo = phoneNo;
+		this.spouse = spouse;
+	}
+	
+	EmployeWithSpouse(){
+		
+	}
+
+	public String getEmpName() {
+		return EmpName;
+	}
+
+	public void setEmpName(String empName) {
+		EmpName = empName;
+	}
+
+	public String getEmpID() {
+		return EmpID;
+	}
+
+	public void setEmpID(String empID) {
+		EmpID = empID;
+	}
+
+	public String getEmpEmailId() {
+		return EmpEmailId;
+	}
+
+	public void setEmpEmailId(String empEmailId) {
+		EmpEmailId = empEmailId;
+	}
+
+	public int getPhoneNo() {
+		return PhoneNo;
+	}
+
+	public void setPhoneNo(int phoneNo) {
+		PhoneNo = phoneNo;
+	}
+
+	public Object getSpouse() {
+		return spouse;
+	}
+
+	public void setSpouse(Object spouse) {
+		this.spouse = spouse;
+	}
+
+	
+	
+	 
+}
